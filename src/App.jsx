@@ -13,7 +13,8 @@ const App = () => {
   if (!address) {
     return (
       <div className="landing">
-        <h1>Welcome to DadDAO</h1>
+        <h1>Welcome to The Family DAO</h1>
+        <h2>Get your Family into web3</h2>
         <button onClick={() => connectWallet("injected")} className="btn-hero">
           Connect your wallet
         </button>
